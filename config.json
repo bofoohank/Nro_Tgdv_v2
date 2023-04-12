@@ -1,0 +1,92 @@
+{
+  "server":
+  {
+    "link": "Local_Tgdv:127.0.0.1:14445:0,0,0",
+    "host": "127.0.0.1",
+    "port": 14445
+  },
+
+  "database":
+  {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "user": "root",
+    "password": "",
+    "mysql": 
+    {
+      "account": "v2_acc",
+      "data": "v2_data"
+    }
+  },
+
+  "event":
+  {
+    "exp-up": 4,
+    "cost":2,
+    "limit-power-exp-up": 50000000000,
+    "sukien":
+    {
+      "trungthu": false
+    }
+  },
+
+  "setup":
+  {
+    "debug": false,
+    "max-players": 100,
+    "max-connect": 100,
+    "drop-all-item": true,
+    "download-server": true,
+    "play-server": true,
+    "dev-server": false,
+    "vip-server": false,
+    "item-old": 800,
+    "item-new": 1050
+  },
+
+  "version": 
+  {
+    "os": 1,
+    "vs": 2.1,
+    "download": 5880861,
+    "data": 64,
+    "map": 29,
+    "skill": 5,
+    "item": 117,
+    "event": 1
+  },
+
+  "cache": 
+  {
+    "isDir": false,
+    "nr_dart": "Res/Cache/Data/NR_dart",
+    "nr_arrow": "Res/Cache/Data/NR_arrow",
+    "nr_effect": "Res/Cache/Data/NR_effect",
+    "nr_image": "Res/Cache/Data/NR_image",
+    "nr_part": "Res/Cache/Data/NR_part",
+    "nr_skill": "Res/Cache/Data/NR_skill",
+    "nrskill": "Res/Cache/Data/NRskill",
+    "nrmap": "Res/Cache/Data/NRmap"
+  },
+
+  "resource":
+  {
+    "map": "Res/Map/Data/map_{0}",
+    "monster": "Res/Monster/x{0}/DataMob_{1}_{2}",
+    "tile": "Res/Cache/Mess/mess_-82",
+    "new-bg": "Res/Cache/Mess/mess_newBG",
+    "download": "Res/Downloading/x{0}",
+    "background": "Res/Background/x{0}/ImgBG_{1}.png",
+    "icon": "Res/Icon/x{0}/{1}.png",
+    "mount": "Res/Mount/x{0}/{1}.png",
+    "effect":
+	{
+      "data": "Res/Effect/x{0}/Data/DataEffect_{1}",
+      "image": "Res/Effect/x{0}/Img/ImgEffect_{1}.png"
+    }
+  }
+
+  
+
+
+}
